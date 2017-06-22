@@ -29,7 +29,7 @@ chmod +x fire.sh
 # Enter a phone number & confirmation code.
 
 # For Auto Launch:
-cd fire
+cd fire1
 chmod 777 autofire.sh
 screen ./autofire.sh
 ```
