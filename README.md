@@ -22,7 +22,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/aliazaliaz/fire1.git
-cd fire
+cd fire1
 chmod +x fire.sh
 ./fire.sh install
 ./fire.sh 
@@ -36,11 +36,11 @@ screen ./autofire.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/aliazaliaz/fire1.git && cd fire && chmod +x fire.sh && ./fire.sh install && ./fire.sh
+cd $HOME && git clone https://github.com/aliazaliaz/fire1.git && cd fire1 && chmod +x fire.sh && ./fire.sh install && ./fire.sh
 
 OR
 
-cd $HOME && git clone https://github.com/aliazaliaz/fire1.git && cd fire && chmod +x fire.sh && ./fire.sh install && chmod 777 autofire.sh && screen ./autofire.sh
+cd $HOME && git clone https://github.com/aliazaliaz/fire1.git && cd fire1 && chmod +x fire.sh && ./fire.sh install && chmod 777 autofire.sh && screen ./autofire.sh
 ```
 
 * * *
