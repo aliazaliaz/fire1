@@ -21,32 +21,24 @@ install() {
 		cd ..
 		chmod +x bot
 		chmod +x tg
-		chmod +x autoenergy.sh
+		chmod +x autobd.sh
 }
 
 function print_logo() {
-	green "         .sSSSSs.    SSSSS .sSSSSSSSs. .sSSSSs.   "
-	green "         S SSSSSSSs. S SSS S SSS SSSSS S SSSSSSSs."
-	green "         S  SS SSSS' S  SS S  SS SSSS' S  SS SSSS'"
-	green "         S..SS       S..SS S..SSsSSSa. S..SS      "
-	green "         S:::SSSS    S:::S S:::S SSSSS S:::SSSS   "
-	green "         S;;;S       S;;;S S;;;S SSSSS S;;;S      "
-	green "         S%%%S       S%%%S S%%%S SSSSS S%%%S SSSSS"
-	green "         SSSSS       SSSSS SSSSS SSSSS SSSSSsSS;:'"
+	green "          ____  ____     _____"
+	green "         |  _ )|  _ \   |_   _|___ ____   __  __"
+	green "         |  _ \| |_) )    | |/ .__|  _ \_|  \/  |"
+	green "         |____/|____/     |_|\____/\_____|_/\/\_|"
 	echo -e "\n\e[0m"
 }
 
 function logo_play() {
     declare -A txtlogo
     seconds="0.010"
-    txtlogo[1]="   .sSSSSs.    SSSSS .sSSSSSSSs. .sSSSSs.   "
-    txtlogo[2]="   S SSSSSSSs. S SSS S SSS SSSSS S SSSSSSSs."
-    txtlogo[3]="   S  SS SSSS' S  SS S  SS SSSS' S  SS SSSS'"
-    txtlogo[4]="   S..SS       S..SS S..SSsSSSa. S..SS      "
-	txtlogo[5]="   S:::SSSS    S:::S S:::S SSSSS S:::SSSS   "
-	txtlogo[6]="   S%%%S       S%%%S S%%%S SSSSS S%%%S SSSSS"
-	txtlogo[7]="   S%%%S       S%%%S S%%%S SSSSS S%%%S SSSSS"
-	txtlogo[8]="   SSSSS       SSSSS SSSSS SSSSS SSSSSsSS;:'"
+    txtlogo[1]=" ____  ____     _____"
+    txtlogo[2]="|  _ )|  _ \   |_   _|___ ____   __  __"
+    txtlogo[3]="|  _ \| |_) )    | |/ .__|  _ \_|  \/  |"
+    txtlogo[4]="|____/|____/     |_|\____/\_____|_/\/\_|"
     printf "\e[31m\t"
     for i in ${!txtlogo[@]}; do
         for x in `seq 0 ${#txtlogo[$i]}`; do
@@ -59,14 +51,14 @@ function logo_play() {
 	echo -e "\e[0m"
 }
 
-function energy_team() {
+function beyondteam() {
 	echo -e "\e[0m"
-	green "     >>>>                       edir 1 source                                               "
-	green "     >>>>                       beyond                                                      "
-	white "     >>>>                       edited by aliaz003                                          "
-	white "     >>>>                       @fire021tm                                                  "
-	red   "     >>>>                       @fire021tm                                                  "
-	red   "     >>>>                       @fire021tm                                                  "
+	green "     >>>>                       We Are Not Attacker                             "
+	green "     >>>>                       We Are Not Alliance                             "
+	white "     >>>>                       We Are Programmer                               "
+	white "     >>>>                       We Are The Best                                 "
+	red   "     >>>>                       We Are Family                                   "
+	red   "     >>>>                       @BeyondTeam                                     "
 	echo -e "\e[0m"
 }
 
@@ -85,7 +77,7 @@ update() {
 
 if [ "$1" = "install" ]; then
 	print_logo
-	energy_team
+	beyondteam
 	logo_play
 	install
   else
@@ -95,7 +87,7 @@ if [ ! -f ./tg/tgcli ]; then
     exit 1
  fi
 	print_logo
-	energy_team
+	beyondteam
 	logo_play
    #sudo service redis-server restart
    ./tg/tgcli -s ./bot/bot.lua -l 1 -E $@

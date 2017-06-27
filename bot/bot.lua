@@ -109,7 +109,7 @@ function create_config( )
     info_text = [[》fire v1.0
 
 
-》https://github.com/aliazaliaz/fire.git
+》https://github.com/aliazaliaz/fire1.git
 
 
 

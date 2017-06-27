@@ -22,7 +22,7 @@ do local _ = {
 	"tools",
 	"write"
   },
-  info_text = "》fire v1.0\nAn 》https://github.com/aliazaliaz/fire \n\n》Admins :\n》@aliaz003 ➣ Founder & Developer《\nOur channel :\n》@fire021tm 《\n",
+  info_text = "》fire v1.0\nAn 》https://github.com/aliazaliaz/fire1 \n\n》Admins :\n》@aliaz003 ➣ Founder & Developer《\nOur channel :\n》@fire021tm 《\n",
   moderation = {
     data = "./data/moderation.json"
   },

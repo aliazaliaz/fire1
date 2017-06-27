@@ -21,26 +21,26 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/aliazaliaz/fire.git
-cd fire
+git clone https://github.com/aliazaliaz/fire1.git
+cd fire1
 chmod +x fire.sh
 ./fire.sh install
 ./fire.sh 
 # Enter a phone number & confirmation code.
 
 # For Auto Launch:
-cd BDReborn
+cd fire1
 chmod 777 autofire.sh
 screen ./autofire.sh
 ```
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/aliazaliaz/fire.git && cd fire && chmod +x fire.sh && ./fire.sh install && ./fire.sh
+cd $HOME && git clone https://github.com/aliazaliaz/fire1.git && cd fire1 && chmod +x fire.sh && ./fire.sh install && ./fire.sh
 
 OR
 
-cd $HOME && git clone https://github.com/aliazaliaz/fire.git && cd fire && chmod +x fire.sh && ./fire.sh install && chmod 777 autofire.sh && screen ./autofire.sh
+cd $HOME && git clone https://github.com/aliazaliaz/fire1.git && cd fire1 && chmod +x fire.sh && ./fire.sh install && chmod 777 autofire.sh && screen ./autofire.sh
 ```
 
 * * *
@@ -49,7 +49,7 @@ cd $HOME && git clone https://github.com/aliazaliaz/fire.git && cd fire && chmod
 
 # Developers!
 
-[aliaz](https://github.com/aliaz003) ([Telegram](https://telegram.me/aliaz))
+[aliaz003](https://github.com/aliaz003) ([Telegram](https://telegram.me/aliaz))
 
 
 
